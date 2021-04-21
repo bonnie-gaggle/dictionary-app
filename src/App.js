@@ -1,12 +1,12 @@
+import Dictionary from "./Dictionary";
 import './App.css';
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Dictionary</h1>
-        <p>
-          Coming soon!
-        </p>
+      <div className="container">
+        <h1>Dictionary</h1>
+        <Dictionary />
         <footer>
           <a
             className="App-link"
@@ -17,6 +17,7 @@ export default function App() {
             Open-source code
           </a> by Bonnie Hanks
         </footer>
+      </div>
     </div>
   );
 }
