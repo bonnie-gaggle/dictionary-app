@@ -12,7 +12,8 @@
 
 .Dictionary .search-bar {
   height: 36px;
-  width: 90%;
+  width: 75%;
+  margin: 0 15px;
   border: 1px solid #ddd;
   border-radius: 5px;
   color: #333;
