@@ -3,12 +3,15 @@ import "./Phonetics.css";
 
 export default function Phonetic(props){
 
+  function playAudio(){
+    let audio = new Audio(props.phonetic.audio);
+    audio.play();
+  }
+
   return (
     <div className="Phonetic">
+      <button onClick={playAudio}><i class="fas fa-volume-up"></i></button>
       {props.phonetic.text}
-      <audio className="audio" controls src={props.phonetic.audio}> 
-        Your browser does not support the <code>audio</code> element.
-      </audio>
     </div>
   );
 }

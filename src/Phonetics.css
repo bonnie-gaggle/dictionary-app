@@ -1,6 +1,4 @@
-audio {
-  vertical-align: middle;
-  margin: 0;
-  height: 25px;
-  width: 100px;
+.Phonetic button {
+  border: none;
+  background: none;
 }

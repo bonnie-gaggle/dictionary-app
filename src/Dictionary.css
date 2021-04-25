@@ -12,9 +12,22 @@
 
 .Dictionary .search-bar {
   height: 36px;
-  width: 75%;
-  margin: 0 15px;
+  width: 100%;
   border: 1px solid #ddd;
   border-radius: 5px;
   color: #333;
+  margin-top: 5px;
+}
+
+.Dictionary input {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+.Dictionary .col-2 {
+  text-align: center;
+}
+
+.Dictionary .col-2 strong {
+  line-height: 2.5;
 }
